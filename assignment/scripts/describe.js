@@ -75,8 +75,8 @@ console.log(secret)
 // variable called isStudent was declared and initized to a boolean value of true.
 // another variable called age was declared and initized to a number value of 34.
 // lastly, variable called zip was declared and initized to another number value of 123.
-// the first if-statement checks to see if isStudent variable is identical to true and zip is greater then 80000 because the zip is less then 800000, which is false. So the else if statment executes
-// the secound if-statement checks to see if isStudent is identical to false or age less then 30, which both cases are false. So the next else if statment executes
+// the first if-statement checks to see if isStudent variable is identical to true and zip is greater than 80000 because the zip is less than 800000, which is false. So the else if statment executes
+// the secound if-statement checks to see if isStudent is identical to false or age less than 30, which both cases are false. So the next else if statment executes
 // the third if-statment checks if the isStudent variable is indetical, which is true. So the console will display 'Welcome to Prime!'
 
 //CODE
@@ -134,6 +134,8 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
+//FIX - colorOne = red and colorTwo = blue -- instruction ask colorOne to be set to blue and colorTwo is set to red
+//should be colorOne = 'blue'; colorTwo = 'red'.
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
@@ -151,6 +153,8 @@ if (mix === true) {
 let temp = 40;
 const time = 4;
 
+//FIX - if(temp > 39 || time >= 4) -- instruction states check if temp is higher than 39 AND if time is greater or equal to  4
+//should be if(temp > 39 && time >= 4)
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
@@ -163,6 +167,13 @@ if (temp > 39 || time >= 4) {
 /*
 let age = 21;
 const minAge = 21;
+
+//FiX - if(minAge <= age) -- instruction states check if age is greater than or equal to minAge ...it is, so we console.log 'enter'
+//should be if(age >= minAge){ 
+//console.log('enter');
+//} else {
+//console.log('no entry');
+//}
 
 if(minAge <= age) {
   console.log('no entry');
